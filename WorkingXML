@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/ops"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Operations" />
+
+    <TextView
+        android:id="@+id/num_vehicles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Number of Vehicles: 0" />
+
+    <TextView
+        android:id="@+id/last_open"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Last open:00:00:00" />
+
+    <TextView
+        android:id="@+id/last_close"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Last close:00:00:00" />
+
+    <TextView
+        android:id="@+id/num_hours"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Number of hours:0" />
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?php
+$percent = $_POST["percent"];
+$stat_file = fopen("statfile", "w");
+fwrite($stat_file, $percent);
+
+fclose($stat_file);
+
+?>
